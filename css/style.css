@@ -37,3 +37,30 @@ nav {
     height: auto;
     width: 100%;
 }
+
+#gridwrapper {
+    width: auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "bo op"
+    "bo we"
+    ;
+}
+
+#booking {
+    background: red;
+    grid-area: bo;
+}
+
+#open_hours {
+    background: orange;
+    grid-area: op;
+}
+
+#weather {
+    background: yellow;
+    grid-area: we;
+}
