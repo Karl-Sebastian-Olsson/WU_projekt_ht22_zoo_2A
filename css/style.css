@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 * {
     margin: 0px;
-    font-family: 'VT323', monospace;
+    font-family: 'Merriweather', serif;
     color: rgb(150,150,150);
+}
+
+body {
+background-color: rgb(50,50,50);
 }
 
 header {
@@ -20,7 +25,8 @@ header {
 
 h1 {
     justify-self: center;
-    font-size: 4rem;
+    font-family: 'Diplomata SC', cursive;
+    font-size: 2rem;
 }
 
 nav {
@@ -98,4 +104,14 @@ footer {
     background: orange;
     width: auto;
     height: 40vh;
+}
+
+#welcome {
+    position: absolute;
+    text-align: center;
+    margin-top: 30%;
+    width: 100%;
+    font-size: 3rem;
+    text-shadow: 0 0 50px black;
+    outline: 1px black;
 }
