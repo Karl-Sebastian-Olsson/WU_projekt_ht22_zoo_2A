@@ -60,14 +60,14 @@ nav {
 }
 
 #booking {
-    background: red;
+    background: rgb(89,99,103);
     grid-area: bo;
     box-shadow: 0 0 50px black;
     border-radius: 5%;
 }
 
 #open_hours {
-    background: orange;
+    background: rgb(89,99,103);
     grid-area: op;
     box-shadow: 0 0 50px black;
     border-radius: 5%;
@@ -83,7 +83,7 @@ nav {
 }
 
 #location {
-    background: red;
+    background: rgb(89,99,103);
     width: auto;
     height: 60vh;
     margin: 100px;
@@ -101,7 +101,7 @@ nav {
 }
 
 footer {
-    background: orange;
+    background: rgb(89,99,103);
     width: auto;
     height: 40vh;
 }
