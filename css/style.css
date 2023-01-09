@@ -73,7 +73,7 @@ p {
     justify-items: center;
     text-align: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 #booking_button {
@@ -119,6 +119,7 @@ p {
     align-items: center;
     justify-items: center;
     text-align: center;
+    font-size: 1.25rem;
 }
 
 #maps{
@@ -240,7 +241,7 @@ footer {
 }
 
 .om_oss_articles {
-    background-color: rgb(89,99,103);
+    background: linear-gradient(to bottom, #596367 0%, #172d22 100%);
     box-shadow: 0 0 50px black;
     border-radius: 25px;
 }
@@ -267,4 +268,11 @@ footer {
 #meerkats {
     width: auto;
     height: 200px;
+}
+
+#lizard {
+    box-shadow: 0 0 50px black;
+    border-radius: 10px;
+    width: auto;
+    height: 125px;
 }
