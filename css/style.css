@@ -73,6 +73,7 @@ p {
     justify-items: center;
     text-align: center;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 #booking_button {
@@ -127,7 +128,7 @@ p {
 }
 
 footer {
-    background: rgb(89,99,103);
+    background: rgb(23, 45, 34);
     width: auto;
     height: 20vh;
     display: flex;
@@ -209,5 +210,61 @@ footer {
 }
 
 #about_wrapper {
-    display: grid; 
+    padding: 125px;
+    gap: 50px;
+    width: auto;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a1 a1 a2"
+    "a3 a4 a4"
+    ;
+}
+
+#om_oss1 {
+    grid-area: a1;  
+}
+
+#om_oss2 {
+    grid-area: a2;
+}
+
+#om_oss3 {
+    grid-area: a3;
+}
+
+#om_oss4 {
+    grid-area: a4;
+}
+
+.om_oss_articles {
+    background-color: rgb(89,99,103);
+    box-shadow: 0 0 50px black;
+    border-radius: 25px;
+}
+
+.om_oss_button{
+    outline: none;
+    background: rgb(23, 45, 34);
+    border: solid 2px #f1f1f1;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+#sandwich_img {
+    width: 350px;
+    height: auto;
+}
+
+#red_panda {
+    width: 100%;
+    height: auto;
+}
+
+#meerkats {
+    width: auto;
+    height: 200px;
 }

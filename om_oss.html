@@ -9,12 +9,54 @@
     <script src="js/app.js"></script>
 </head>
 <body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="om_oss.html">Om oss</a>
+        <a href="#">Resturangen</a>
+        <a href="employees.html">Anställda</a>
+    </div>
+    
+    <header>
+        <nav>
+            <img src="img/misc/menu_icon.png" alt="menu icon" id="menu_icon" onclick="openNav()">
+        </nav>
+    
+        <a href="index.html" style="text-decoration: none;">
+            <h1>NTI Djurpark</h1>
+        </a>
+    </header>
     
 <div id="about_wrapper">
 
-    g
+    <article id="om_oss1" class="om_oss_articles">
+        <h2>Våra djur</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minus, repellendus delectus eveniet pariatur nam cumque ducimus consectetur hic modi ratione tenetur laboriosam rem doloremque, excepturi aspernatur sequi. Beatae, quod?</p>
+        <img src="img/animals/meerkats.jpeg" alt="meerkats" id="meerkats">
+    </article>
+    <article id="om_oss2" class="om_oss_articles">
+        <h2>Delta i en mattävling med våra utsvultna hyenor!</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil labore quam quis recusandae ipsam dolor!</p>
+        <button class="om_oss_button">Läs mer...</button>
+    </article>
+    <article id="om_oss3" class="om_oss_articles">
+        <h2>Hungrig? Ät på vår resturang!</h2>
+        <img src="img/food/sandwich.jpeg" alt="sandwich" id="sandwich_img">
+        <button class="om_oss_button">Meny</button>
+    </article>
+    <article id="om_oss4" class="om_oss_articles">
+        <h2>Vi som jobbar här</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit hic laborum cupiditate ratione cum vel, dicta labore aliquam odit ad nobis expedita laboriosam, earum tempora voluptate id commodi totam pariatur quam molestias necessitatibus, iusto in quo! Vitae placeat repellat, quam labore vel deleniti dolorum natus, quod adipisci quae nulla fuga.</p>
+        <a href="employees.html"><button class="om_oss_button">Anställda</button></a>
+    </article>
 
 </div>
+
+<footer>
+    <a href="om_oss.html" style="text-decoration: none;">Om oss</a> 
+    <a href="#" style="text-decoration: none;">Resturangen</a>
+    <a href="employees.html" style="text-decoration: none;">Anställda</a>
+</footer>
 
 </body>
 </html>
