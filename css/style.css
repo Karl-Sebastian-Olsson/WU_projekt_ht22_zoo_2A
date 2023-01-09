@@ -275,6 +275,7 @@ footer {
 #sandwich_img {
     width: 350px;
     height: auto;
+        border-radius: 25px;
 }
 
 #red_panda {
@@ -285,6 +286,7 @@ footer {
 #meerkats {
     width: auto;
     height: 175px;
+    border-radius: 25px;
 }
 
 #lizard {
